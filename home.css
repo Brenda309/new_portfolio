@@ -1,6 +1,7 @@
-* {
-  box-sizing: content-box;
+body{
+  /* box-sizing: content-box; */
   margin: 0;
+  display: block;
 }
 
 .header {
@@ -158,8 +159,8 @@ padding-bottom: 20px;
   }
   .skills{
     background-image: url("./image/background1.png");
-    margin-left: 20px;
-   padding: 40px;
+    margin: 20px;
+   padding: 20px;
   }
 
   .lang_title{
@@ -180,19 +181,54 @@ font-weight: 600;
 font-size: 18px;
 line-height: 27px;
 letter-spacing: -0.0525em;
-margin-left: 50px;
+margin-left: 30px;
 color: #FFFFFF;
 }
 .framework{
     background-image: url("./image/background2.png");
-    margin-left: 20px;
-   padding: 40px;
+    margin: 20px;
+   padding: 20px;
    margin-top: 20px;
   }
 
   .other_skills{
    background-image: url("./image/background3.png");
    margin-left: 20px;
-   padding: 40px;
-   margin-top: 20px;
+   padding: 20px;
+   margin: 20px;
   }
+  .form_s{
+  /* display: flex; */
+  margin: 20px;
+} 
+.form_input{
+  display: inline;
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+input{
+ padding: 14px;
+ min-width: 90%;
+ margin: 1em 0; 
+ border: #01091f 1px solid;
+ border-radius: 3px;
+
+}
+textarea{
+ width: 98%;
+ margin-top: 20px;
+ border-radius: 3px;
+}
+.footer{
+  background: #1A2236;
+  
+}
+
+.media{
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  gap: 2em;
+  justify-content: baseline;
+}
