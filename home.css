@@ -40,6 +40,7 @@ body{
   font-size: 50px;
   line-height: 100%;
   color: #080b14;
+  margin: 0;
 }
 
 .discription {
@@ -133,16 +134,16 @@ background: #98DEDE;
     flex-direction: column;
     margin: 20px;
 }
-.the_about{
+div .the_about{
 font-family: 'Playfair Display';
 font-style: normal;
-font-weight: 400;
+font-weight: 300;
 font-size: 50px;
 line-height: 100%;
 /* identical to box height, or 50px */
 color: #1A2236;
-padding-top: 40px;
-padding-bottom: 20px;
+margin-top:20px;
+margin-bottom: 0;
 }
 .cv_btn{
   background: #1a2236;
@@ -222,7 +223,7 @@ textarea{
 }
 .footer{
   background: #1A2236;
-  
+  padding: 30px;
 }
 
 .media{
@@ -231,4 +232,21 @@ textarea{
   flex-direction: row;
   gap: 2em;
   justify-content: baseline;
+  padding-inline-start: 0;
 }
+ .get_resume{
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+color: #92DCDC;
+padding-bottom: 8px;
+ }
+ .get_started{
+font-family: 'Playfair Display';
+font-style: normal;
+font-weight: 400;
+font-size: 50px;
+line-height: 100%;
+color: #1A2236;
+ }
